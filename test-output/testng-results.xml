@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-20T22:03:34 IST" name="Suite" finished-at="2026-01-20T22:04:09 IST" duration-ms="34814">
+    <groups>
+    </groups>
+    <test started-at="2026-01-20T22:03:34 IST" name="Test" finished-at="2026-01-20T22:04:09 IST" duration-ms="34814">
+      <class name="com.practice.TestCases.TestCases">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.practice.TestCases.TestCases@476a736d]" started-at="2026-01-20T22:03:36 IST" name="setUP" finished-at="2026-01-20T22:03:43 IST" duration-ms="7544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.practice.TestCases.TestCases@476a736d]" started-at="2026-01-20T22:03:43 IST" name="initPages" finished-at="2026-01-20T22:03:44 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="testCase_001()[pri:0, instance:com.practice.TestCases.TestCases@476a736d]" started-at="2026-01-20T22:03:44 IST" name="testCase_001" finished-at="2026-01-20T22:03:54 IST" duration-ms="10097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_001 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.practice.TestCases.TestCases@476a736d]" started-at="2026-01-20T22:03:54 IST" name="closeBrowser" finished-at="2026-01-20T22:03:54 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.practice.TestCases.TestCases@476a736d]" started-at="2026-01-20T22:03:54 IST" name="initPages" finished-at="2026-01-20T22:03:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="testCase_002()[pri:0, instance:com.practice.TestCases.TestCases@476a736d]" started-at="2026-01-20T22:03:54 IST" name="testCase_002" finished-at="2026-01-20T22:04:03 IST" duration-ms="8588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_002 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.practice.TestCases.TestCases@476a736d]" started-at="2026-01-20T22:04:03 IST" name="closeBrowser" finished-at="2026-01-20T22:04:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.practice.TestCases.TestCases@476a736d]" started-at="2026-01-20T22:04:03 IST" name="initPages" finished-at="2026-01-20T22:04:03 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="testCase_003()[pri:0, instance:com.practice.TestCases.TestCases@476a736d]" started-at="2026-01-20T22:04:03 IST" name="testCase_003" finished-at="2026-01-20T22:04:08 IST" duration-ms="5089" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected And Actual Error Message Not Matched expected [Please fill out this field.123] but found [Please fill out this field.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected And Actual Error Message Not Matched expected [Please fill out this field.123] but found [Please fill out this field.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at com.practice.Pages.LoginPage.loginForm_EmailAddress_TextBox_Validate_ErrorMessage_PleaseFillOutThisField(LoginPage.java:52)
+at com.practice.TestCases.TestCases.testCase_003(TestCases.java:84)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_003 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.practice.TestCases.TestCases@476a736d]" started-at="2026-01-20T22:04:08 IST" name="closeBrowser" finished-at="2026-01-20T22:04:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.practice.TestCases.TestCases@476a736d]" started-at="2026-01-20T22:04:08 IST" name="tearDown" finished-at="2026-01-20T22:04:09 IST" duration-ms="870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.practice.TestCases.TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
