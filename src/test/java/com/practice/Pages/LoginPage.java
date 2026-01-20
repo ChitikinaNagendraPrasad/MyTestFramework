@@ -47,7 +47,7 @@ public class LoginPage
     {
         try
         {
-            String expectedMessage = "Please fill out this field.123";
+            String expectedMessage = "Please fill out this field.";
             String actualMessage = loginForm_EmailAddress_TextBox.getAttribute("validationMessage");
             Assert.assertEquals(actualMessage, expectedMessage,"Expected And Actual Error Message Not Matched");
         }
