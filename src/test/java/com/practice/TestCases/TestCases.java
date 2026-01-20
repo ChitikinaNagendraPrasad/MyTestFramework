@@ -74,8 +74,8 @@ public class TestCases extends Base
     @Test
     public void testCase_003()
     {
-        String email = "nag@nag.com";
-        String password = "password";
+        //String email = "nag@nag.com";
+        //String password = "password";
         try
         {
             driver.get(baseURL);

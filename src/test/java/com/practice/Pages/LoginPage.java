@@ -34,7 +34,7 @@ public class LoginPage
     {
         try
         {
-            String validationMessage = loginForm_EmailAddress_TextBox.getAttribute("validationMessage");
+            //String validationMessage = loginForm_EmailAddress_TextBox.getAttribute("validationMessage");
             Utilities.fluent_Fill(ldriver, loginForm_EmailAddress_TextBox, email);
         }
         catch(Exception e)
@@ -64,7 +64,7 @@ public class LoginPage
     {
         try
         {
-            String validationMessage = loginForm_Password_TextBox.getAttribute("validationMessage");
+            //String validationMessage = loginForm_Password_TextBox.getAttribute("validationMessage");
             Utilities.fluent_Fill(ldriver, loginForm_Password_TextBox, password);
         }
         catch(Exception e)
