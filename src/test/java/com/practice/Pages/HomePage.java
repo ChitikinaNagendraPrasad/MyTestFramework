@@ -24,6 +24,22 @@ public class HomePage
         }
     }
     
+    public static String homePageTitle="Automation Exercise";
+    
+    public String getPageTitle()
+    {
+        String returnValue=null;
+        try
+        {
+            returnValue=ldriver.getTitle();                   
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();
+        }
+        return returnValue;
+    }
+    
     @FindBy(xpath="//img[@alt=\"Website for automation practice\"]")
     WebElement automationExercise_Image;
         

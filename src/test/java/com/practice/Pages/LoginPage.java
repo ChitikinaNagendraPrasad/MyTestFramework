@@ -24,6 +24,22 @@ public class LoginPage
         }        
     }
     
+    public static String loginPageTitle="Automation Exercise - Signup / Login";
+    
+    public String getPageTitle()
+    {
+        String returnValue=null;
+        try
+        {
+            returnValue=ldriver.getTitle();                   
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();
+        }
+        return returnValue;
+    }
+    
     @FindBy(xpath="//div[@class=\"login-form\"]")
     WebElement loginForm;
     
