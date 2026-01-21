@@ -75,24 +75,4 @@ public class TestCases extends Base
         }
     }
 
-    /*
-     * @Test public void testCase_001() { String email = "nag@nag.com"; String
-     * password = "password"; try { driver.get(baseURL);
-     * homePage.click_SignUpOrLogin_Link();
-     * loginPage.loginForm_loginToYourAccount(email, password);
-     * 
-     * } catch (Exception e) { e.printStackTrace(); } }
-     * 
-     * @Test public void testCase_002() { try { driver.get(baseURL);
-     * homePage.click_SignUpOrLogin_Link(); loginPage.loginForm_NewUserSignUp();
-     * 
-     * } catch (Exception e) { e.printStackTrace(); } }
-     * 
-     * @Test public void testCase_003() { //String email = "nag@nag.com";
-     * //String password = "password"; try { driver.get(baseURL);
-     * homePage.click_SignUpOrLogin_Link();
-     * loginPage.loginForm_Login_Button_Click(); loginPage.
-     * loginForm_EmailAddress_TextBox_Validate_ErrorMessage_PleaseFillOutThisField
-     * (); } catch (Exception e) { e.printStackTrace(); } }
-     */
 }
