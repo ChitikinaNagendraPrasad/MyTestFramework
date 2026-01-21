@@ -60,7 +60,7 @@ public class TestCases extends Base
             assertEquals(actualTitle, expectedTitle, "Home Page Title Mismatch");
             homePage.click_SignUpOrLogin_Link();
             actualTitle = loginPage.getPageTitle();
-            expectedTitle = LoginPage.loginPageTitle+"abcd";
+            expectedTitle = LoginPage.loginPageTitle;
             if (! actualTitle.equals(expectedTitle))
             {
                 System.out.println("Signup/Login Page Title Mismatched");
