@@ -46,12 +46,12 @@ public class TestCases extends Base
     @Test
     public void TC001_RegisterUser()
     {
-        String actualTitle = homePage.getPageTitle();
-        String expectedTitle = HomePage.homePageTitle;
+        String actualTitle = null;
+        String expectedTitle = null;
         try
         {
             actualTitle = homePage.getPageTitle();
-            expectedTitle = HomePage.homePageTitle;
+            expectedTitle = HomePage.homePageTitle+"Nag";
             if (! actualTitle.equals(expectedTitle))
             {
                 System.out.println("Home Page Title Mismatched");
