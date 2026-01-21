@@ -32,7 +32,6 @@ public class MyTestListener implements ITestListener
 
     public void configureReports()
     {
-
         String ts = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy_MM_dd_HHmmss"));
 
         String extentReportPath = null;
