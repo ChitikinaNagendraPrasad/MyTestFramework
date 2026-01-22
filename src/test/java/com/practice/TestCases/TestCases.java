@@ -55,7 +55,7 @@ public class TestCases extends Base
             if (! actualTitle.equals(expectedTitle))
             {
                 System.out.println("Home Page Title Mismatched");
-                captureScreenshot(driver, "TC001_RegisterUser");
+                captureScreenshot(driver, Thread.currentThread().getStackTrace()[1].getMethodName());
             } 
             assertEquals(actualTitle, expectedTitle, "Home Page Title Mismatch");
             homePage.click_SignUpOrLogin_Link();
@@ -68,7 +68,6 @@ public class TestCases extends Base
             }            
             assertEquals(actualTitle, expectedTitle, "Signup/Login Page Title Mismatch");
         }
-
         catch (Exception e)
         {
             e.printStackTrace();
