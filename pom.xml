@@ -91,6 +91,21 @@
 			<artifactId>allure-testng</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- Core POI (HSSF for XLS, common APIs) -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>5.5.1</version>
+		</dependency>
+
+		<!-- OOXML support (XSSF for XLSX files) -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>5.5.1</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
